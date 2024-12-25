@@ -1,1 +1,1 @@
-# AltynTrade-trading-website-SP-OK-I
+# АлтынТрейд-trading-website-SP-OK-I

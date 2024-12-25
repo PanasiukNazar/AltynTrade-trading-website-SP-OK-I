@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>АлтынТрейд</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/logo.png" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-grow text-primary"
+                style="width: 3rem; height: 3rem"
+                role="status"
+            >
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar Start -->
+        <nav
+            class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0"
+        >
+            <a
+                href="index.html"
+                class="navbar-brand bg-primary d-flex align-items-center px-4 px-lg-5"
+            >
+                <h2 class="mb-2 text-white">АлтынТрейд</h2>
+            </a>
+            <button
+                type="button"
+                class="navbar-toggler me-4"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link active"
+                        >Главная</a
+                    >
+                    <a href="index.html#about" class="nav-item nav-link"
+                        >О нас</a
+                    >
+                    <a href="index.html#service" class="nav-item nav-link"
+                        >Услуги</a
+                    >
+                    <a href="index.html#feature" class="nav-item nav-link"
+                        >Особенности</a
+                    >
+                    <a href="index.html#contact" class="nav-item nav-link"
+                        >Контакты</a
+                    >
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 pb-5">
+            <div class="owl-carousel header-carousel position-relative mb-5">
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/carousel-1.jpg" alt="" />
+                    <div
+                        class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                        style="background: rgba(6, 3, 21, 0.5)"
+                    >
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h5
+                                        class="text-white text-uppercase mb-3 animated slideInDown"
+                                    >
+                                        Углубленные знания: обучение трейдингу,
+                                        инвестициям в Казахстане и покупке
+                                        акций.
+                                    </h5>
+                                    <h1
+                                        class="display-3 text-white animated slideInDown mb-4"
+                                    >
+                                        Ваш путь к успеху:
+                                        <span class="text-primary"
+                                            >Курсы по трейдингу</span
+                                        >
+                                    </h1>
+                                    <p
+                                        class="fs-5 fw-medium text-white mb-4 pb-2"
+                                    >
+                                        Узнайте, как эффективно управлять
+                                        капиталом, развивать инвестиционные
+                                        стратегии и разбираться в криптовалютах.
+                                        Курсы созданы для начинающих и опытных
+                                        инвесторов.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/carousel-2.jpg" alt="" />
+                    <div
+                        class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                        style="background: rgba(6, 3, 21, 0.5)"
+                    >
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h5
+                                        class="text-white text-uppercase mb-3 animated slideInDown"
+                                    >
+                                        Инвестируйте уверенно: уроки по
+                                        трейдингу и криптовалютам.
+                                    </h5>
+                                    <h1
+                                        class="display-3 text-white animated slideInDown mb-4"
+                                    >
+                                        Узнайте больше:
+                                        <span class="text-primary"
+                                            >Инвестиции Казахстан</span
+                                        >
+                                    </h1>
+                                    <p
+                                        class="fs-5 fw-medium text-white mb-4 pb-2"
+                                    >
+                                        Получите глубокие знания в области
+                                        трейдинга, изучите стратегии покупки
+                                        акций в Казахстане и создайте портфель,
+                                        соответствующий вашим финансовым целям.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- About Start -->
+        <div id="about" class="container-fluid overflow-hidden py-5 px-lg-0">
+            <div class="container about py-5 px-lg-0">
+                <div class="row g-5 mx-lg-0">
+                    <div
+                        class="col-lg-6 ps-lg-0 wow fadeInLeft"
+                        data-wow-delay="0.1s"
+                        style="min-height: 400px"
+                    >
+                        <div class="position-relative h-100">
+                            <img
+                                class="position-absolute img-fluid w-100 h-100"
+                                src="img/about.jpg"
+                                style="object-fit: cover"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 about-text wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <h6 class="text-secondary text-uppercase mb-3">
+                            О нас
+                        </h6>
+                        <h1 class="mb-5">
+                            Обучение трейдингу и инвестициям в Казахстане
+                        </h1>
+                        <p class="mb-5">
+                            Добро пожаловать на наш образовательный портал,
+                            посвященный трейдингу, инвестициям в Казахстане и
+                            покупке акций. Мы предоставляем качественные курсы и
+                            уроки, которые помогут вам освоить основные принципы
+                            торговли на финансовых рынках, разобраться в
+                            криптовалютах и построить эффективные инвестиционные
+                            стратегии. <br /><br />
+                            Наши программы разработаны для тех, кто хочет
+                            получить глубокие знания в области трейдинга и
+                            уверенно инвестировать в акции Казахстана. Мы
+                            помогаем вам анализировать рынки, управлять
+                            капиталом и находить оптимальные решения для
+                            достижения ваших финансовых целей. <br /><br />
+                            Присоединяйтесь к нам, чтобы начать свой путь в мир
+                            трейдинга и инвестиций. Наша миссия — предоставить
+                            вам необходимые знания и навыки для успешной работы
+                            на рынке, основываясь на образовательном и
+                            информационном подходе.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Fact Start -->
+        <div class="container-xxl py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <h6 class="text-secondary text-uppercase mb-3">
+                            Факты
+                        </h6>
+                        <h1 class="mb-5">Основные факты о наших курсах</h1>
+                        <p class="mb-5">
+                            Изучите ключевые аспекты трейдинга, инвестиций и
+                            покупки акций в Казахстане. Наши образовательные
+                            материалы помогут вам лучше понимать финансовые
+                            рынки и принимать взвешенные инвестиционные решения.
+                        </p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row g-4 align-items-center">
+                            <div class="col-sm-6">
+                                <div
+                                    class="bg-primary p-4 mb-4 wow fadeIn"
+                                    data-wow-delay="0.3s"
+                                >
+                                    <i
+                                        class="fa fa-users fa-2x text-white mb-3"
+                                    ></i>
+                                    <h2
+                                        class="text-white mb-2"
+                                        data-toggle="counter-up"
+                                    >
+                                        410
+                                    </h2>
+                                    <p class="text-white mb-0">
+                                        Участников курсов
+                                    </p>
+                                </div>
+                                <div
+                                    class="bg-secondary p-4 wow fadeIn"
+                                    data-wow-delay="0.5s"
+                                >
+                                    <i
+                                        class="fa fa-ship fa-2x text-white mb-3"
+                                    ></i>
+                                    <h2
+                                        class="text-white mb-2"
+                                        data-toggle="counter-up"
+                                    >
+                                        55
+                                    </h2>
+                                    <p class="text-white mb-0">
+                                        Завершенных уроков
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div
+                                    class="bg-success p-4 wow fadeIn"
+                                    data-wow-delay="0.7s"
+                                >
+                                    <i
+                                        class="fa fa-star fa-2x text-white mb-3"
+                                    ></i>
+                                    <h2
+                                        class="text-white mb-2"
+                                        data-toggle="counter-up"
+                                    >
+                                        141
+                                    </h2>
+                                    <p class="text-white mb-0">
+                                        Отзывов от студентов
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fact End -->
+
+        <!-- Service Start -->
+        <div id="service" class="container-xxl py-5">
+            <div class="container py-5">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase">Наши услуги</h6>
+                    <h1 class="mb-5">
+                        Информационные и образовательные решения по трейдингу,
+                        инвестициям и покупке акций в Казахстане
+                    </h1>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-md-6 col-lg-4 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="service-item p-4">
+                            <div class="overflow-hidden mb-4">
+                                <img
+                                    class="img-fluid"
+                                    src="img/service-1.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <h4 class="mb-3">Обучение трейдингу</h4>
+                            <p>
+                                Мы предлагаем курсы и уроки по трейдингу,
+                                которые помогут вам разобраться в основах
+                                торговли на бирже и сформировать стратегический
+                                подход к инвестициям.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-4 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="service-item p-4">
+                            <div class="overflow-hidden mb-4">
+                                <img
+                                    class="img-fluid"
+                                    src="img/service-2.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <h4 class="mb-3">Инвестиции в Казахстане</h4>
+                            <p>
+                                Узнайте, как правильно инвестировать в
+                                Казахстане, используя наши образовательные
+                                материалы и рекомендации по выбору акций и
+                                активов.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-4 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div class="service-item p-4">
+                            <div class="overflow-hidden mb-4">
+                                <img
+                                    class="img-fluid"
+                                    src="img/service-3.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <h4 class="mb-3">Обучение по криптовалютам</h4>
+                            <p>
+                                Предлагаем курсы по криптовалютам, где вы
+                                узнаете, как анализировать рынок цифровых
+                                активов и управлять рисками в условиях высокой
+                                волатильности.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+        <!-- Feature Start -->
+        <div id="feature" class="container-fluid overflow-hidden py-5 px-lg-0">
+            <div class="container feature py-5 px-lg-0">
+                <div class="row g-5 mx-lg-0">
+                    <div
+                        class="col-lg-6 feature-text wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <h6 class="text-secondary text-uppercase mb-3">
+                            Наши особенности
+                        </h6>
+                        <h1 class="mb-5">
+                            Основные характеристики наших образовательных
+                            программ
+                        </h1>
+                        <div
+                            class="d-flex mb-5 wow fadeInUp"
+                            data-wow-delay="0.3s"
+                        >
+                            <i
+                                class="fa fa-globe text-primary fa-3x flex-shrink-0"
+                            ></i>
+                            <div class="ms-4">
+                                <h5>Курсы по трейдингу</h5>
+                                <p class="mb-0">
+                                    Интерактивные курсы по трейдингу,
+                                    охватывающие ключевые аспекты торговли на
+                                    бирже: от анализа графиков до построения
+                                    торговых стратегий.
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="d-flex mb-5 wow fadeIn"
+                            data-wow-delay="0.5s"
+                        >
+                            <i
+                                class="fa fa-solid fa-seedling text-primary fa-3x flex-shrink-0"
+                            ></i>
+                            <div class="ms-4">
+                                <h5>Уроки по трейдингу</h5>
+                                <p class="mb-0">
+                                    Индивидуальные и групповые уроки для
+                                    глубокого изучения механизмов трейдинга и
+                                    формирования навыков принятия решений в
+                                    реальном времени.
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="d-flex mb-0 wow fadeInUp"
+                            data-wow-delay="0.7s"
+                        >
+                            <i
+                                class="fa fa-headphones text-primary fa-3x flex-shrink-0"
+                            ></i>
+                            <div class="ms-4">
+                                <h5>Инвестиции в акции</h5>
+                                <p class="mb-0">
+                                    Информационная поддержка и образовательные
+                                    материалы для эффективного выбора акций и
+                                    управления портфелем на рынке Казахстана.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 pe-lg-0 wow fadeInRight"
+                        data-wow-delay="0.1s"
+                        style="min-height: 400px"
+                    >
+                        <div class="position-relative h-100">
+                            <img
+                                class="position-absolute img-fluid w-100 h-100"
+                                src="img/feature.jpg"
+                                style="object-fit: cover"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature End -->
+
+        <!-- Team Start -->
+        <div class="container-xxl py-5">
+            <div class="container py-5">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase">Наша команда</h6>
+                    <h1 class="mb-5">
+                        Эксперты в области трейдинга и инвестиций
+                    </h1>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="team-item p-4">
+                            <div class="overflow-hidden mb-4">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-1.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <h5 class="mb-0">Иван Ягодкин</h5>
+                            <p>Эксперт по обучению трейдингу</p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="team-item p-4">
+                            <div class="overflow-hidden mb-4">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-2.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <h5 class="mb-0">Ольга Савицкая</h5>
+                            <p>Специалист по инвестициям в Казахстане</p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div class="team-item p-4">
+                            <div class="overflow-hidden mb-4">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-3.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <h5 class="mb-0">Дмитрий Колосов</h5>
+                            <p>Консультант по покупке акций</p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.9s"
+                    >
+                        <div class="team-item p-4">
+                            <div class="overflow-hidden mb-4">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-4.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <h5 class="mb-0">Алина Кравчук</h5>
+                            <p>Инструктор по курсам криптовалют</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+        <!-- Testimonial Start -->
+        <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="text-center">
+                    <h6 class="text-secondary text-uppercase">Отзывы</h6>
+                    <h1 class="mb-0">Что говорят наши клиенты</h1>
+                </div>
+                <div
+                    class="owl-carousel testimonial-carousel wow fadeInUp"
+                    data-wow-delay="0.1s"
+                >
+                    <div class="testimonial-item p-4 my-5">
+                        <i
+                            class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"
+                        ></i>
+                        <div class="d-flex align-items-end mb-4">
+                            <img
+                                class="img-fluid flex-shrink-0"
+                                src="img/testimonial-1.jpg"
+                                style="width: 80px; height: 80px"
+                            />
+                            <div class="ms-4">
+                                <h5 class="mb-1">Анна Громова</h5>
+                            </div>
+                        </div>
+                        <p class="mb-0">
+                            Курсы по трейдингу помогли мне понять основы и
+                            уверенно начать работать на рынке. Отличный подход и
+                            профессиональные тренеры.
+                        </p>
+                    </div>
+                    <div class="testimonial-item p-4 my-5">
+                        <i
+                            class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"
+                        ></i>
+                        <div class="d-flex align-items-end mb-4">
+                            <img
+                                class="img-fluid flex-shrink-0"
+                                src="img/testimonial-2.jpg"
+                                style="width: 80px; height: 80px"
+                            />
+                            <div class="ms-4">
+                                <h5 class="mb-1">Максим Лебедев</h5>
+                            </div>
+                        </div>
+                        <p class="mb-0">
+                            Обучение трейдингу и покупке акций в Казахстане
+                            стало для меня открытием. Отличное соотношение
+                            теории и практики!
+                        </p>
+                    </div>
+                    <div class="testimonial-item p-4 my-5">
+                        <i
+                            class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"
+                        ></i>
+                        <div class="d-flex align-items-end mb-4">
+                            <img
+                                class="img-fluid flex-shrink-0"
+                                src="img/testimonial-4.jpg"
+                                style="width: 80px; height: 80px"
+                            />
+                            <div class="ms-4">
+                                <h5 class="mb-1">Елена Чернова</h5>
+                            </div>
+                        </div>
+                        <p class="mb-0">
+                            Уроки по трейдингу научили меня стратегически
+                            мыслить и лучше понимать рынок. Рекомендую всем, кто
+                            хочет изучить трейдинг!
+                        </p>
+                    </div>
+                    <div class="testimonial-item p-4 my-5">
+                        <i
+                            class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"
+                        ></i>
+                        <div class="d-flex align-items-end mb-4">
+                            <img
+                                class="img-fluid flex-shrink-0"
+                                src="img/testimonial-3.jpg"
+                                style="width: 80px; height: 80px"
+                            />
+                            <div class="ms-4">
+                                <h5 class="mb-1">Алексей Миронов</h5>
+                            </div>
+                        </div>
+                        <p class="mb-0">
+                            Курсы по криптовалютам дали мне полное представление
+                            о рынке и инструментах инвестирования. Благодарю за
+                            знания и опыт.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+        <!-- Quote Start -->
+        <div id="contact" class="container-xxl py-5">
+            <h1 style="text-align: center" class="mb-0">Свяжитесь с нами</h1>
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div
+                        style="height: 370px"
+                        class="col-lg-5 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126546.4212644919!2d76.89332888508153!3d43.249583724589556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836939139faaab%3A0x2fa3800c848d7296!2sAshat%20Cargo%20Trade!5e0!3m2!1suk!2sua!4v1735112416837!5m2!1suk!2sua"
+                            class="map-iframe"
+                            width="100%"
+                            height="400"
+                            style="border: 0; border-radius: 15px; height: 100%"
+                            allowfullscreen=""
+                            loading="lazy"
+                        ></iframe>
+                    </div>
+                    <div class="col-lg-7">
+                        <div
+                            class="bg-light text-center p-5 wow fadeIn"
+                            data-wow-delay="0.5s"
+                        >
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-12 col-sm-6">
+                                        <input
+                                            type="text"
+                                            class="form-control border-0"
+                                            placeholder="Ваше имя"
+                                            style="height: 55px"
+                                        />
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <input
+                                            id="email"
+                                            type="email"
+                                            class="form-control border-0"
+                                            placeholder="Ваш email"
+                                            style="height: 55px"
+                                        />
+                                        <div
+                                            style="color: red"
+                                            id="result"
+                                        ></div>
+                                    </div>
+                                    <div class="col-12">
+                                        <textarea
+                                            class="form-control border-0"
+                                            placeholder="Особое замечание"
+                                        ></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button
+                                            onclick="sendForm()"
+                                            id="submit"
+                                            class="btn btn-primary w-100 py-3"
+                                            type="submit"
+                                        >
+                                            Отправить
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Quote End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-light footer pt-5 wow fadeIn"
+            data-wow-delay="0.1s"
+            style="margin-top: 6rem"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-light mb-4">АлтынТрейд</h4>
+                        <p>
+                            Мы предлагаем обучающие курсы по трейдингу,
+                            инвестициям в Казахстане и покупке акций в
+                            Казахстане. Присоединяйтесь к нашим урокам по
+                            трейдингу и узнайте, как эффективно инвестировать и
+                            управлять рисками.
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-light mb-4">Адрес</h4>
+                        <p class="mb-2">
+                            <i class="fa fa-map-marker-alt me-3"></i>Райымбек
+                            даңғылы 77а, Алматы 050000, Казахстан
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-phone-alt me-3"></i>+77079530353
+                        </p>
+                        <a href="mailto:info@tradingkazakhstan.com">
+                            <p
+                                style="
+                                    white-space: nowrap;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                "
+                                class="mb-2"
+                            >
+                                <i class="fa fa-envelope me-3"></i
+                                >altyn_trade@gmail.com
+                            </p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-light mb-4">Навигация</h4>
+                        <a href="index.html" class="btn btn-link">Главная</a>
+                        <a href="index.html#about" class="btn btn-link"
+                            >О нас</a
+                        >
+                        <a href="index.html#service" class="btn btn-link"
+                            >Услуги</a
+                        >
+                        <a href="index.html#feature" class="btn btn-link"
+                            >Особенности</a
+                        >
+                        <a href="index.html#contact" class="btn btn-link"
+                            >Контакты</a
+                        >
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-light mb-4">Быстрые ссылки</h4>
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Условия использования</a
+                        >
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Конфиденциальность</a
+                        >
+                        <a href="index.html#contact" class="btn btn-link"
+                            >Контакты</a
+                        >
+                    </div>
+                    <div class="col-lg-12 text-center">
+                        Торговля на финансовых рынках, будь то акции, товары или
+                        криптовалюты, связана с определёнными рисками, которые
+                        важно понимать каждому инвестору. Одним из основных
+                        рисков является высокая волатильность рынков. Финансовые
+                        рынки могут резко изменяться из-за экономических
+                        новостей, политических событий или природных катастроф,
+                        что может привести к значительным убыткам, если не
+                        управлять рисками должным образом.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2>Cookie Consent</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    This website uses cookies to help you have a superior and
+                    more relevant browsing experience on the website.<a href="#"
+                        >Read more...</a
+                    >
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Accept</button>
+                <button class="cookie-button" id="declineBtn">Decline</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/contact-form.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
