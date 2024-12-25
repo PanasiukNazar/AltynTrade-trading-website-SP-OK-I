@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #fc766aff;
+    --primary: #56a8cbff;
     --secondary: #51cfed;
     --light: #f0f0f8;
     --dark: #060315;
@@ -491,15 +491,15 @@
     display: none;
 }
 header i {
-    color: #fc766aff;
+    color: #56a8cbff;
     font-size: 32px;
 }
 header h2 {
-    color: #fc766aff;
+    color: #56a8cbff;
     font-weight: 500;
 }
 .data p a {
-    color: #fc766aff;
+    color: #56a8cbff;
     text-decoration: none;
 }
 .data p a:hover {
@@ -509,14 +509,14 @@ header h2 {
     padding: 20px 0px;
 }
 .buttons .cookie-button {
-    border: 2px solid #fc766aff;
+    border: 2px solid #56a8cbff;
     color: #fff;
     padding: 8px 0;
     border-radius: 0px;
     cursor: pointer;
     width: calc(100% / 2 - 10px);
     transition: all 0.2s ease;
-    background: #fc766aff;
+    background: #56a8cbff;
     font-weight: 600;
 }
 .buttons #acceptBtn:hover {
@@ -526,7 +526,7 @@ header h2 {
 }
 #declineBtn {
     background-color: #fff;
-    color: #fc766aff;
+    color: #56a8cbff;
 }
 #declineBtn:hover {
     background-color: #393939;
